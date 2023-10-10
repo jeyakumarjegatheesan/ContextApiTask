@@ -1,0 +1,63 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+.sidebar > h2 {
+  margin-top: 30px;
+  text-align: center;
+}
+#sidebar {
+  height: 100vh;
+  background-color: rgb(244, 248, 248);
+  width: 100;
+}
+.sidebar > div {
+  margin-top: 40px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background-color: rgb(33, 33, 97);
+  border-radius: 5px;
+  color: white;
+  padding: 3px;
+}
+.sidebar > div > h4 {
+  margin-left: 50px;
+}
+#note {
+  background-color: rgb(226, 233, 242);
+}
+.inputArea {
+  margin-top: 10px;
+}
+.mainPage {
+  padding: 30px;
+  margin-top: 60px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: rgb(245, 246, 248);
+}
+.form-control {
+  background-color: rgb(245, 246, 248) !important;
+  border: none !important;
+}
+
+.editPage {
+  margin-top: 80px;
+}
+.editPage > input {
+  height: 30px;
+  width: 100px;
+}
+.notePage {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+
+.card {
+  margin-left: 20px;
+  width: 400px !important;
+  height: 300px !important;
+}
